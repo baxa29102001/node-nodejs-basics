@@ -12,7 +12,7 @@ const rename = async () => {
   }
   await renameFile(
     join(projectFolder, "files", "wrongFilename.txt"),
-    join(projectFolder, "files", "properFilename .md")
+    join(projectFolder, "files", "properFilename.md")
   );
 };
 
